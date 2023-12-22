@@ -1,0 +1,121 @@
+.navbar {
+    display: flex;
+    justify-content: space-between; /* Pushes content to the corners */
+    align-items: center; /* Vertically centers the content */
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  
+  
+  .navbar-title {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  
+  .navbar-right {
+    margin-right: 10px;
+  }
+/* Add these styles to your CSS file */
+
+/* Style for the "Update" button */
+.update-button {
+  background-color: #c41ba2; /* Blue color for the button */
+  color: #fff; /* White text color */
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.update-button:hover {
+  background-color: #a7147d; /* Darker blue color on hover */
+}
+
+  
+  
+  /* styles.css */
+
+/* Style the table */
+.searchbox{
+  width:100%;
+  border: 2px solid #790d55;
+  border-radius:5px;
+  padding:5px;
+
+}
+.table-container {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+/* Style table headers */
+.table-container th {
+  background-color: hsl(328, 85%, 43%); /* Header background color */
+  border: 1px solid #000; /* Header border */
+  padding: 8px; /* Header cell padding */
+  text-align: left; 
+  font-weight: bold;
+  color: antiquewhite;
+  }
+
+/* Style table rows */
+.table-container td {
+  padding: 8px; /* Cell padding */
+  border: 1px solid #000; /* Cell border */
+  text-align: left; /* Cell text alignment */
+}
+
+/* Apply alternating row colors */
+.table-container tr:nth-child(odd) {
+  background-color: #f977b6; /* Odd row color */
+  
+}
+.table-container tr:nth-child(even) {
+  background-color: rgb(243, 178, 187); /* even row color */
+}
+
+
+/* Add unique card styles in Home.css or a separate CSS file */
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.card {
+  border: none; /* Remove the default border */
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: #6e0740; /* Set a background color */
+  color: antiquewhite; /* Text color */
+}
+
+.card:hover {
+  background-color: #250c25; /* Change background color on hover */
+  color: #fff; /* Text color on hover */
+  transform: scale(1.05); /* Add a scaling effect on hover */
+}
+
+.card h5{
+  color:#f0c0e3;
+}
+
+
+/* Add this style to your CSS file */
+/* In your CSS file */
+.pagination-container {
+    display: flex;
+    justify-content: space-between; /* Distribute elements with spacing */
+  }
+  
+  .page-item {
+    margin-right: 10px; /* Adjust spacing between page links */
+  }
+  
+
+
+/* Add other creative styles as needed */

@@ -1,0 +1,33 @@
+#b-img {
+    opacity: 0.85;
+    -moz-opacity: 0.70;
+    filter: alpha(opacity=45);
+    width: 100vw;          /* Set width to cover the full viewport width */
+    height: 100vh;         /* Set height to cover the full viewport height */
+    position: fixed;       /* Fixed positioning so it covers the entire viewport */
+    top: 0;                /* Position from the top */
+    left: 0;               /* Position from the left */
+    z-index: -1;           /* Set a z-index so other content can appear above */
+    background-image: url('../Components/images/gif.gif');
+    background-size: cover; /* Ensures the background image covers the entire element */
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+/* Marquee animation */
+@keyframes marquee {
+    0% {
+      box-shadow: 0 0 5px 2px #08064a; /* Blue shadow for the primary color, adjust as needed */
+    }
+    50% {
+      box-shadow: 0 0 15px 5px #08064a; /* Increase shadow to create the "running" effect */
+    }
+    100% {
+      box-shadow: 0 0 5px 2px #80e3f7; /* Back to the original shadow */
+    }
+  }
+  
+  /* Apply the animation on hover or any other interaction */
+  .btn-marquee:hover {
+    animation: marquee 1s infinite; /* 1s duration for the animation */
+  }
